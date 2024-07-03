@@ -28,7 +28,7 @@ function dividir(n1, n2) {
   console.log(`${n1} / ${n2} = ${n1 / n2}`);
 }
 
-function porcentagem(n1) {
+function porcentagem(n1, n2) {
   console.log(`${n1} % de ${n2} = ${(n1 / 100) * n2}`);
 }
 

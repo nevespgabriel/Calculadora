@@ -28,7 +28,7 @@ while (true) {
         modulo.dividir(n1, n2);
         break;
       case "%":
-        modulo.porcentagem(n1);
+        modulo.porcentagem(n1, n2);
         break;
       default:
         console.log("Opção inválida. Não foi possível realizar a operação.");
